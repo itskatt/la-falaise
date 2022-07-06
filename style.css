@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --font-size-fluid-0: clamp(.75rem, 1.5vw, 1rem);
+    --font-size-fluid-1: clamp(1rem, 2vw, 1.5rem);
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+    margin: 0;
+
+    font-size: var(--font-size-fluid-0);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    font-size: var(--font-size-fluid-1);
+
+    padding: 1em;
+
+    background-color: #333;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    z-index: 2;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+
+    flex-grow: 1;
+
+    font-size: var(--font-size-fluid-1);
+}
+
+@media (max-width: 800px) {
+    main {
+        flex-direction: column;
+    }    
+}
+
+h2 {
+    background-color: rgba(51, 51, 51, 0.478);
+    padding: 0.5em;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    text-decoration: none;
+    color: white;
+
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+#spawn {
+    background-image: url("images/spawn.png");
+}
+
+#map {
+    background-image: url("images/map.png");
+}
