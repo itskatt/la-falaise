@@ -27,7 +27,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1652564977",
+        "cacheTag": "1662050074",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -49,7 +49,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#333333",
             "world": "La Falaise - overworld",
-            "last_rendertime": 1652533413,
+            "last_rendertime": 1662033321,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -59,6 +59,7 @@ var overviewerConfig = {
                 64,
                 426
             ],
+            "lastrenderversion": 2,
             "minZoom": 3,
             "spawn": false,
             "north_direction": 0
@@ -72,7 +73,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#333333",
             "world": "La Falaise - overworld",
-            "last_rendertime": 1652533413,
+            "last_rendertime": 1662033321,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -82,6 +83,7 @@ var overviewerConfig = {
                 64,
                 426
             ],
+            "lastrenderversion": 2,
             "minZoom": 3,
             "spawn": false,
             "north_direction": 1
@@ -95,7 +97,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#333333",
             "world": "La Falaise - overworld",
-            "last_rendertime": 1652533413,
+            "last_rendertime": 1662033321,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -105,6 +107,7 @@ var overviewerConfig = {
                 64,
                 426
             ],
+            "lastrenderversion": 2,
             "minZoom": 3,
             "spawn": false,
             "north_direction": 2
@@ -118,7 +121,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#333333",
             "world": "La Falaise - overworld",
-            "last_rendertime": 1652533413,
+            "last_rendertime": 1662033321,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -128,6 +131,7 @@ var overviewerConfig = {
                 64,
                 426
             ],
+            "lastrenderversion": 2,
             "minZoom": 3,
             "spawn": false,
             "north_direction": 3
